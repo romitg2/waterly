@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import { OrbitControls } from "@react-three/drei";
 
 function Experience() {
@@ -5,7 +6,7 @@ function Experience() {
     <>
       <OrbitControls />
       <mesh>
-        <boxGeometry />
+        <boxGeometry args={[2, 2, 2]} />
         <meshNormalMaterial />
       </mesh>
     </>
