@@ -2,10 +2,10 @@
 function ExperienceDynamic() {
   return (
     <>
-      <mesh>
-        <boxGeometry args={[1, 1, 1]} />
-        <meshStandardMaterial color="hotpink" />
-      </mesh>
+      {/* <mesh> */}
+      {/*   <boxGeometry args={[1, 1, 1]} /> */}
+      {/*   <meshStandardMaterial color="hotpink" /> */}
+      {/* </mesh> */}
     </>
   );
 }

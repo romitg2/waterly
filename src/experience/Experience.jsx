@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/no-unknown-property */
-import { Text } from "@react-three/drei";
 import { Perf } from "r3f-perf";
 import { ScreenSizer } from "@react-three/drei";
 import { Sparkles } from "@react-three/drei";
@@ -35,9 +34,9 @@ function Experience() {
     <>
       <Logo position={[-5.5, 3.3, 0]} scale={0.5} />
       {/* <Logo /> */}
-      <Text>
-        {mousePos[0]} , {mousePos[1]}
-      </Text>
+      {/* <Text> */}
+      {/*   {mousePos[0]} , {mousePos[1]} */}
+      {/* </Text> */}
       <Perf />
       <ScreenSizer
         scale={1} // scale factor
@@ -64,10 +63,10 @@ function Experience() {
           />
         </MeshDistortMaterial>
       </mesh>
-      <mesh position={[0, 30, 0]}>
-        <boxGeometry args={[10, 10, 10]} />
-        <meshNormalMaterial />
-      </mesh>
+      {/* <mesh position={[0, 30, 0]}> */}
+      {/*   <boxGeometry args={[10, 10, 10]} /> */}
+      {/*   <meshNormalMaterial /> */}
+      {/* </mesh> */}
     </>
   );
 }

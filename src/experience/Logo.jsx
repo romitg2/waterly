@@ -9,7 +9,7 @@ function Logo(props) {
         <Float>
           <Text font="./waterfont.ttf" position={[0, 0, 0]}>
             Waterly
-            <meshBasicMaterial color="white" side={THREE.DoubleSide} />
+            <meshNormalMaterial color="white" side={THREE.DoubleSide} />
           </Text>
         </Float>
         <Text font="./roboto.ttf" scale={0.6} position={[0, -0.7, 0]}>
