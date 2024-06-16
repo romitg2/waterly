@@ -5,6 +5,7 @@ import Experience from "./experience/Experience";
 import { ScrollControls } from "@react-three/drei";
 import ExperienceDynamic from "./experience/ExperienceDynamic";
 import Content from "./content/Content";
+
 import Navbar from "./content/Navbar";
 
 function App() {
