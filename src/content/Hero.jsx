@@ -1,8 +1,8 @@
 function Hero() {
   return (
-    <div>
-      <div className="ml-[10vw] mt-[30vh]">
-        <h1 className="text-6xl leading-8 tracking-tight">
+    <div className="h-[90vh]">
+      <div className="pl-[10vw] pt-[30vh]">
+        <h1 className=" md:text-6xl leading-8 tracking-tight">
           Unleashing{" "}
           <span className="text-8xl tracking-tighter font-extralight italic">
             Creativity
@@ -18,7 +18,6 @@ function Hero() {
           ❝From Waves of Ideas to Oceans of Possibilities.❞
         </h1>
       </div>
-      <p className="h-[100vh] opacity-55"></p>
     </div>
   );
 }
