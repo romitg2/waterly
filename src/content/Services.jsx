@@ -1,7 +1,7 @@
 function Services() {
   return (
     <div className=" text-black mx-auto w-screen rounded-[4rem] ">
-      <div className="bg-white rounded-[4rem] h-full w-[90vw] mx-auto">
+      <div className=" border-[1px] border-blue-300/10 bg-gradient-to-br from-blue-300/20 to-blue-300/5 backdrop-blur rounded-[4rem] h-full w-[90vw] mx-auto ">
         <div className="px-12 py-24">
           <h1 className="text-4xl font-bold">
             Welcome to Waterly Studios—Where Ideas Flow and Identities Shine.
